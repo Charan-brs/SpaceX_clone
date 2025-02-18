@@ -1,7 +1,7 @@
 .hero-section {
   position: relative;
   background: url("assets/spacex_photo.jpg") no-repeat center center/cover;
-   height: 350px; 
+  height: 300px; 
   display: flex;
   align-items: center;
   justify-content: center;
