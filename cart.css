@@ -1,0 +1,26 @@
+/* Make images in the cart smaller */
+.cart-img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style quantity input */
+.quantity {
+  width: 60px;
+  text-align: center;
+}
+
+/* Make the table responsive */
+.table-responsive {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .cart-img {
+    width: 60px; /* Smaller images on mobile */
+  }
+  .quantity {
+    width: 50px;
+  }
+}
