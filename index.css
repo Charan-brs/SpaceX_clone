@@ -1,6 +1,6 @@
 .hero-section {
   background: url("assets/spacex_photo.jpg") no-repeat center center/cover;
-/*   height: 440px; */
+   height: 440px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,6 @@
 
 .hero-section .container {
   position: relative;
-  z-index: 2;
 }
 
 .navbar {
