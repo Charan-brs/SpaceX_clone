@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX Shop Clone</title>
+
+    <!-- Bootstrap CSS (CDN for GitHub Pages) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">SpaceX Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+      <div class="container">
+        <h1>Welcome to the SpaceX Shop</h1>
+        <p>Explore the latest SpaceX merchandise</p>
+      </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="container py-5">
+      <h2 class="text-center mb-4">Featured Products</h2>
+      <div class="row g-4">
+        <!-- SpaceX T-Shirt -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img
+              src="assets/spacex-full-sleeve-t-shirt-Navy.webp"
+              class="card-img-top img-fluid"
+              alt="SpaceX T-Shirt"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">SpaceX T-Shirt</h5>
+              <p class="card-text">₹400.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SpaceX Cap -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img
+              src="assets/spacex_cap.jpg"
+              class="card-img-top img-fluid"
+              alt="SpaceX Cap"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">SpaceX Cap</h5>
+              <p class="card-text">₹250.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SpaceX Jacket -->
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <div class="card">
+            <img
+              src="assets/spacex_jacket.jpg"
+              class="card-img-top img-fluid"
+              alt="SpaceX Jacket"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">SpaceX Jacket</h5>
+              <p class="card-text">₹800.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 SpaceX Shop Clone | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS (CDN for GitHub Pages) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
